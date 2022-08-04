@@ -14,7 +14,7 @@ const NewsItems = () => {
         <h3 className="tertiary-heading">Hunger the Real Pandemic Project - May 1, 2021.</h3>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem accusamus cum quis sit accusantium aut voluptates. A fugit perferendis quasi.</p>
           <div className='hero-button'>
-          <a class="secondary-bg btn register">Learn More</a>
+          <a className="secondary-bg btn register">Learn More</a>
           </div>
         </div>
           
@@ -27,7 +27,7 @@ const NewsItems = () => {
         <h3 className="tertiary-heading"> Highlights of the Recently Concluded Ondo Auto Rally 2022</h3>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem accusamus cum quis sit accusantium aut voluptates. A fugit perferendis quasi.</p>
           <div className='hero-button'>
-          <a class="secondary-bg btn register">Learn More</a>
+          <a className="secondary-bg btn register">Learn More</a>
           </div>
         </div>
           
@@ -39,7 +39,7 @@ const NewsItems = () => {
         <h3 className="tertiary-heading"> MBCON Partners Cancer Aware Nigeria to Raise Fund</h3>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem accusamus cum quis sit accusantium aut voluptates. A fugit perferendis quasi.</p>
           <div className='hero-button'>
-          <a class="secondary-bg btn register">Learn More</a>
+          <a className="secondary-bg btn register">Learn More</a>
           </div>
         </div>
           

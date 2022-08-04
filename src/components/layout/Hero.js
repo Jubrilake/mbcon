@@ -14,7 +14,7 @@ const Hero = () => {
 
         <p className='lead'>The Mercedes-Benz Club of Naija (MBCON) is an automative club made up of enthusiasts brought together by the love for Mercedes-Benz, one of the leading motoring companies in the world.</p>
           <div className='hero-button'>
-          <a href="#register" class="primary-bg btn modal-trigger register">Become a member</a>
+          <a href="#register" className="primary-bg btn modal-trigger register">Become a member</a>
           </div>
         </div>
         <div className="hero-img">

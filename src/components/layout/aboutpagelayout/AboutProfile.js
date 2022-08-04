@@ -20,7 +20,7 @@ With all the necessary, mindset and right crop of individuals, they proceeded to
 
 They further crafted out our mission and the vision of the club.</p>
 <div className='hero-button'>
-          <a download href="https://mbcon.ng/wp-content/uploads/2022/04/Main-Profile-2.pdf" class="secondary-bg btn register">Download Corporate Profile</a>
+          <a download href="https://mbcon.ng/wp-content/uploads/2022/04/Main-Profile-2.pdf" className="secondary-bg btn register">Download Corporate Profile</a>
           </div></ AnimationOnScroll >
 
       </div>

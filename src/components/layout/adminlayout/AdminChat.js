@@ -19,8 +19,8 @@ const AdminChat = () => {
        
         </div> */}
         <div className="admin-chat-button">
-        <a href="#register" class="primary-bg btn modal-trigger register">Post</a>
-        <a href="#register" class="secondary-bg btn modal-trigger register">Upload File</a>
+        <a href="#register" className="primary-bg btn modal-trigger register">Post</a>
+        <a href="#register" className="secondary-bg btn modal-trigger register">Upload File</a>
         </div>
         
 

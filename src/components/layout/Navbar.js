@@ -25,12 +25,17 @@ const Navbar = () => {
   const onChangeActiveLink = (linkName) => {
     setActiveLink(linkName)
   }
-// console.log(act)
-console.log(location.pathname.split("/")[1])
+  
   useEffect(()=>{
     // Init Materialize JS
     M.AutoInit();
   })
+
+  useEffect(()=>{
+    if(window.location.pathname === '/admin'){
+      setBoundary(true);
+    }
+  }, [])
 
   if(!boundary){
     return (
@@ -50,7 +55,7 @@ console.log(location.pathname.split("/")[1])
                 <li><a href="/membership" className={`link ${activeLink === "membership" && 'active'}`} >Membership</a></li>
                 <li><a href="/updates" className={`link ${activeLink === "updates" && 'active'}`} >Updates</a></li>
                 <li><a href="/contact" className={`link ${activeLink === "contact" && 'active'}`} >Contact</a></li>
-                <li><a  class="login modal-trigger link secondary-bg btn" href="#login">Login</a></li>
+                <li><a  className="login modal-trigger link secondary-bg btn" href="#login">Login</a></li>
               </ul>
             </div>
           </div>
@@ -68,15 +73,26 @@ console.log(location.pathname.split("/")[1])
 
 
 
-{/* admin navbar */}
-{/* <ul id="dropdown1" class="dropdown-content">
+
+        
+    </Fragment>
+  )
+  }
+
+  if(boundary){
+    // TODO: code navigation for routes that needs authentication
+    {/* admin navbar */}
+
+    return(
+<>    
+    <ul id="dropdown1" className="dropdown-content">
   <li><a href="#!" className='admin-link'><span><FiSettings/> </span>Profile</a></li>
   <li><a href="#!" className='admin-link'><span><FiLock/> </span>Change password</a></li>
   <li><a href="#!" className='admin-link'><span><FiLogOut/> </span>logout</a></li>
  
   
   <li><a href="#!" className='admin-link'><span><FiGlobe/> </span>Visit Website</a></li>
-  <li class="divider"></li>
+  <li className="divider"></li>
   <li><a href="#!" className='admin-link'>Contact Us</a></li>
   <li><a href="#!" className='admin-link'>Privacy and policy</a></li>
   <li><a href="#!" className='admin-link'>Terms & Conditions</a></li>
@@ -103,15 +119,16 @@ console.log(location.pathname.split("/")[1])
     </div>
     <div className="user-nav_user">
     <img src={profile} alt="User Photo" className='user-nav_user-photo' />
-    <span className="user-nav_user-name"><a class="dropdown-trigger" href="#!" data-target="dropdown1">Bayo<i class="material-icons right">arrow_drop_down</i></a></span>
+    <span className="user-nav_user-name"><a className="dropdown-trigger" href="#!" data-target="dropdown1">Bayo<i className="material-icons right">arrow_drop_down</i></a></span>
   </div>
   </div>
   
 
-  </header> */}
-        
-    </Fragment>
-  )
+  </header> 
+    </>
+ 
+    )
+    
   }
   
 }

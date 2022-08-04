@@ -5,7 +5,7 @@ const Login = () => {
     <div  id="login" className="modal">
       
       <div className="login-grid">
-      <div class="modal-content login-left">
+      <div className="modal-content login-left">
         <div className="login-left">
         <h3>Welcome back</h3>
       <p> Please enter your details.</p>

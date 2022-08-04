@@ -6,20 +6,20 @@ const Register = () => {
     <div  id="register" className="modal reg">
       
       <div className="register-grid">
-      <div class="modal-content register-left">
+      <div className="modal-content register-left">
         <div className="login-left">
         <h3>Create an account</h3>
       <p> Please enter your details.</p>
       <form className="col s12">
       <div className="row">
         <div className="input-field col s12">
-        <input  id="first_name" type="text" class="validate" />
+        <input  id="first_name" type="text" className="validate" />
           <label for="first_name">First Name</label>
         </div>
       </div>
       <div className="row">
         <div className="input-field col s12">
-        <input  id="first_name" type="text" class="validate" />
+        <input  id="first_name" type="text" className="validate" />
           <label for="first_name">Last Name</label>
         </div>
       </div>
