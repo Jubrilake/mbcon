@@ -91,7 +91,7 @@ const Navbar = () => {
   <li><a href="#!" className='admin-link'><span><FiLogOut/> </span>logout</a></li>
  
   
-  <li><a href="#!" className='admin-link'><span><FiGlobe/> </span>Visit Website</a></li>
+  <li><a href="/" className='admin-link'><span><FiGlobe/> </span>Visit Website</a></li>
   <li className="divider"></li>
   <li><a href="#!" className='admin-link'>Contact Us</a></li>
   <li><a href="#!" className='admin-link'>Privacy and policy</a></li>
