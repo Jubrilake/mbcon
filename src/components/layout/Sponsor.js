@@ -12,7 +12,7 @@ import logo from "../layout/logo.png";
 
 
 const Sponsor = () => {
-  
+    
     useEffect(()=>{
       // Init Materialize JS
       M.AutoInit();

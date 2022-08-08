@@ -6,7 +6,7 @@
 body {
   overflow-x: hidden;
   /* background-image: linear-gradient(to right bottom, #232526, #414345); */
-  background-color: #A92021;
+  background-color: #10b4ab;
 
 }
 body a, button{
@@ -55,7 +55,7 @@ body #mobile-demo.sidenav a.link{
   
 }
 body #mobile-demo.sidenav a:hover, body #mobile-demo.sidenav .link.active, body .hide-on-med-and-down .link.active, body .hide-on-med-and-down .link:hover{
-  color: #A92021;
+  color: #10b4ab;
   
 
 }
@@ -80,7 +80,7 @@ body .login-left, body .register-left{
   flex: 1;
 }
 body .login-left h3{
-  color: #A92021;
+  color: #10b4ab;
   font-size:30px;
 }
 body .login-left p{
@@ -163,21 +163,34 @@ body .memberfit-img{
 }
 /* gallery */
 body .gallerysection{
+  
   text-align: center;
   padding: 90px 0px;
   background-color: #000;
+  
 }
-body .gallery-container img{
+/* body .gallery-container img{
  
 width:100%;
 height:100%;
   object-fit: cover;
  
-}
+} */
 body .gallery-grid{
   display: grid;
   grid-template-columns: repeat( auto-fit, minmax(350px, 1fr) );
   grid-gap:2px
+}
+body .thumbnails{
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto;
+  /* height: 100%;
+  width: 100%; */
+  
+}
+body .thumbnail{
+  height: 100%;
+  object-fit: cover;
 }
 body .gallery-container{
   position: relative;
@@ -261,7 +274,7 @@ body .footer-left_icon{
   margin-top:20px;
 }
 body .footer .icons{
-  color: #A92021;
+  color: #10b4ab;
   font-size: 25px;
   transform: translateY(0px);
   -webkit-transform: translateY(0px);
@@ -310,13 +323,13 @@ body .mb-lg{
   margin-bottom: 60px;
 }
 body .secondary-bg{
-  background-color: #A92021;
+  background-color: #10b4ab;
 }
 body .bold{
   font-weight: 700;
 }
 body .secondary-color{
-  color:#A92021;
+  color:#10b4ab;
 }
 body .secondary-heading{
   font-size:40px;
@@ -339,7 +352,7 @@ body .primary-color{
 }
 body .btn.register:hover{
   background: #fff;
-  color: #A92021;
+  color: #10b4ab;
 }
 
 body .news{
@@ -409,7 +422,7 @@ color: #ccc;
    bottom: -3px;
    height: 4px;
    width:100%;
-   background-color: #A92021;
+   background-color: #10b4ab;
    
    transform-origin: left;
    
@@ -485,7 +498,7 @@ body .aboutteam{
 }
 body .aboutteam h2{
 text-align: center;
-color: #A92021;
+color: #10b4ab;
 margin-bottom: 30px;
 }
 body .aboutteam-grid{
@@ -515,7 +528,7 @@ body .aboutteam-img img{
 }
 
 body .aboutteam-card{
-  background:#A92021;
+  background:#10b4ab;
   text-align: center;
   padding: 20px;
   box-shadow: 0px 6px 12px rgba(0,0,0,.3);
@@ -606,12 +619,16 @@ align-items: center;
 }
  body .joinmember-box h2{
   font-size: 40px;
-  color: #A92021;
+  color: #10b4ab;
  }
 
+ .input-field .prefix ~ input, .input-field .prefix ~ textarea,.label, .input-field .prefix ~ .helper-text, .input-field .prefix ~ .autocomplete-content{
+  border-bottom: 1px solid #fff
+ }
 
-
-
+body .input-field.col .prefix ~ label, .input-field.col .prefix ~ .validate ~ label{
+  color:#fff;
+}
 
  /* benefit membership section */ 
  body .benefit-item img{
@@ -685,7 +702,7 @@ body .admin{
 }
 
 body .admin-sidenav{
-background-color: #A92021;
+background-color: #10b4ab;
 flex: 0 0 10%;
 }
 body .admin-leftbar{
@@ -699,7 +716,7 @@ body .admin-leftbar{
 
 }
 .admin-leftbar_birthday{
-background-color:#A92021;
+background-color:#10b4ab;
 margin-top: 20px;
 padding: 10px;
 color: #fff;
@@ -786,10 +803,10 @@ background-color: transparent !important;
   height: 100%;
 }
 .user-nav > *:hover{
-  background-color: #A92021;
+  background-color: #10b4ab;
 }
 body .admin-link{
-  color: #A92021 !important;
+  color: #10b4ab !important;
   font-size: 14px !important;
 }
 body .dropdown-content{
@@ -832,7 +849,7 @@ color:rgb(103, 102, 102);
   height: 15px; 
   width:15px;
    border-radius: 50%; 
-   background-color: #A92021; 
+   background-color: #10b4ab; 
    color: #f4f4f4; 
    -webkit-border-radius: 50%;
     -moz-border-radius: 50%; 
@@ -850,7 +867,7 @@ color:rgb(103, 102, 102);
 .user-nav_user-name a{
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
-  color: #A92021;
+  color: #10b4ab;
 }
 
 /* side navigation */
@@ -976,12 +993,12 @@ box-shadow: 0px 4px 10px rgba(0,0,0,.1);
 }
 .admin-hero h2{
   font-size: 20px;
-  color:#A92021;
+  color:#10b4ab;
  
 }
 .admin-hero_icon{
   font-size: 20px;
-  color:#A92021;
+  color:#10b4ab;
 }
 .admin-hero h2 span{
   font-size: 30px;
@@ -1038,7 +1055,7 @@ margin-left: 20px;
 }
 body .admin-chat_icon{
   font-size: 25px;
-  color: #A92021;
+  color: #10b4ab;
   cursor: pointer;
 }
 
@@ -1075,7 +1092,7 @@ body .adminpost-grid{
   margin-top: 20px;
 }
 body .adminpost-icons img{
-  border: 2px solid #A92021;
+  border: 2px solid #10b4ab;
 }
 body .adminpost-icons > img:nth-child(2){
   transform: translateX(-10px);
@@ -1276,7 +1293,7 @@ body .hero-content, body .about-hero_content{
     }
     body .joinmember-box h2{
       font-size: 30px;
-      color: #A92021;
+      color: #10b4ab;
      }
    
     body .login-left{
