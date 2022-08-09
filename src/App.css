@@ -685,12 +685,12 @@ width: 30px;
 /* ADMIN PAGE */
 
 body .admin-header{
-  height: 6rem;
+  /* height: 6rem; */
   background-color: #fff;
   border-bottom: #ccc;
   display: flex;
   justify-content: space-between;
-  padding: 0px 20px;
+  padding: 10px 20px;
   align-items: center;
   position: sticky;
   top: 0;
@@ -948,6 +948,7 @@ body .admin-content{
   /* height: 5000px; */
   /* padding: 20px; */
   padding-bottom: 10px;
+ 
 }
 
 /* admin hero */
@@ -1268,6 +1269,7 @@ body .admin-leftbar_birthday img{ width: 40px; border-radius: 100%; -webkit-bord
     body .admin-content{
       
       order: 3;
+      margin-top: 70px;
       }
     body .admin-leftbar{
       flex: 0 0 30% ;
@@ -1315,6 +1317,26 @@ padding: 20px;
   body .image-hero{
     display: none;
    
+  }
+  body .admin-content{
+      
+    order: 3;
+    margin-top: 70px;
+    }
+  body .admin-header{
+   flex-wrap: wrap;
+   align-content: center;
+  }
+  body input.search_input
+{
+
+  padding: 0px 1rem !important;
+
+}
+  body .search{
+   order: 1;
+   flex: 0 0 100%;
+   margin-top: 10px;
   }
   body .hero-grid, body .about-hero_grid
   
@@ -1387,6 +1409,36 @@ body .hero-content, body .about-hero_content{
     body .login-right{
       display: none;
       
+     
+    }
+    .admin-hero h2{
+      font-size: 12px;
+     
+     
+    }
+    .admin-hero p{
+      font-size: 12px;
+     
+     
+    }
+    .admin-hero_icon{
+      font-size: 13px;
+    
+     
+    }
+    .admin-hero_info{
+      margin-top: 10px;
+    }
+    .secondary-bg.btn.modal-trigger.register, .primary-bg.btn.modal-trigger.register{
+      /* padding:  10px !important; */
+      font-size: 12px;
+    }
+    .admin-hero h2 span{
+      font-size: 20px;
+     
+    }
+    body .admin-hero_grid{
+      display: block;
      
     }
 }
